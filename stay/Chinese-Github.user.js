@@ -3,7 +3,7 @@
 // @namespace    chinese-github
 // @version      0.2.4
 // @description  将Github翻译为中文
-// @icon         https://raw.githubusercontent.com/zhaotang5/Chinese-Github/main/icons/icon128.png
+// @icon         https://raw.githubusercontent.com/zhaotang5/Chinese-Github/main/i18n/B913BA13-4665-4F23-B901-2923FA2E7185.png
 // @match        *://github.com/*
 // @match        *://*.github.com/*
 // @run-at       document-end
