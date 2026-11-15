@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name         Chinese Github
 // @namespace    chinese-github
-// @version      0.2.3
+// @version      0.2.4
 // @description  将Github翻译为中文
+// @icon         https://raw.githubusercontent.com/zhaotang5/Chinese-Github/main/icons/icon128.png
 // @match        *://github.com/*
 // @match        *://*.github.com/*
 // @run-at       document-end
