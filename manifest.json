@@ -1,8 +1,23 @@
 {
   "manifest_version": 3,
   "name": "Chinese Github",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "将Github翻译为中文",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Chinese Github",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
   "content_scripts": [
     {
       "matches": ["*://github.com/*", "*://*.github.com/*"],
