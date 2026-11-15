@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Chinese Github",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "将Github翻译为中文",
   "content_scripts": [
     {

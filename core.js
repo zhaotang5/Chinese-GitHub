@@ -7,7 +7,7 @@ const SKIP_SELECTOR = [
   "[aria-hidden='true']", "[translate='no']", ".notranslate",
   "[contenteditable='true']",
   ".markdown-body", "[data-testid='markdown-body']", ".react-markdown",
-  ".markdown-title", ".js-issue-title",
+  ".markdown-title", ".js-issue-title", ".Truncate", ".css-truncate",
   ".comment-body", ".js-comment-body",
   ".commit-title", ".commit-desc", ".js-commit-title", ".js-commit-message",
   ".blob-code", ".blob-wrapper", ".js-file-line",
