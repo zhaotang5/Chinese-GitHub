@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Chinese Github",
+  "version": "0.2.1",
+  "description": "将Github翻译为中文",
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*", "*://*.github.com/*"],
+      "js": ["i18n/github.js", "core.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
