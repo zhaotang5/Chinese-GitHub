@@ -4,18 +4,18 @@
   "version": "0.2.4",
   "description": "将Github翻译为中文",
   "icons": {
-    "16": "icons/icon16.png",
-    "32": "icons/icon32.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "16": "i18n/0F1028E7-B0F6-47AA-8E58-431E36A1ADD5.png",
+    "32": "i18n/4FB1153F-A5FF-40D2-9C45-7511AC32A4EB.png",
+    "48": "i18n/83F48151-B922-4339-83F5-EE1AB0E59960.png",
+    "128": "i18n/B913BA13-4665-4F23-B901-2923FA2E7185.png"
   },
   "action": {
     "default_title": "Chinese Github",
     "default_icon": {
-      "16": "icons/icon16.png",
-      "32": "icons/icon32.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
+      "16": "i18n/0F1028E7-B0F6-47AA-8E58-431E36A1ADD5.png",
+      "32": "i18n/4FB1153F-A5FF-40D2-9C45-7511AC32A4EB.png",
+      "48": "i18n/83F48151-B922-4339-83F5-EE1AB0E59960.png",
+      "128": "i18n/B913BA13-4665-4F23-B901-2923FA2E7185.png"
     }
   },
   "content_scripts": [
