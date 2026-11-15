@@ -9,17 +9,40 @@
   import "https://cdn.jsdelivr.net/npm/oreui-web@latest/+esm";
 </script>
 <style>
+  html, body {
+    background: #000;
+    color: #eee;
+    color-scheme: dark;
+  }
   body {
-    max-width: 720px;
-    margin: 0 auto;
+    margin: 0;
     padding: 32px 16px 48px;
+    box-sizing: border-box;
+  }
+  .page {
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    box-sizing: border-box;
+  }
+  /* ore-card 是自定义元素，默认 inline，必须显式块级才能铺满 */
+  ore-card {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    --ore-card-background: #1c1c1c;
+    --ore-card-foreground: #ffffff;
+    --ore-card-description: #b8b8b8;
+    --ore-card-border: #3d3d3d;
+    --ore-card-highlight: rgba(255, 255, 255, 0.08);
+    --ore-card-shadow: rgba(0, 0, 0, 0.6);
   }
   header { text-align: center; margin-bottom: 8px; }
   header img { width: 72px; height: 72px; image-rendering: pixelated; }
-  header h1 { margin: 8px 0 4px; }
+  header h1 { margin: 8px 0 4px; color: #fff; }
   header .subtitle { opacity: 0.75; margin: 8px 0 0; }
   .install-row {
     display: flex;
@@ -27,10 +50,11 @@
     gap: 12px;
     padding: 8px 0;
   }
-  .install-row + .install-row { border-top: 1px solid rgba(128, 128, 128, 0.25); }
+  .install-row + .install-row { border-top: 1px solid rgba(255, 255, 255, 0.15); }
   .install-row .desc { flex: 1; }
   code {
-    background: rgba(128, 128, 128, 0.18);
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
     padding: 2px 6px;
     font-family: ui-monospace, SFMono-Regular, monospace;
     font-size: 13px;
@@ -44,6 +68,7 @@
 </style>
 </head>
 <body>
+<div class="page">
 
 <header>
   <img src="https://raw.githubusercontent.com/zhaotang5/Chinese-Github/main/i18n/B913BA13-4665-4F23-B901-2923FA2E7185.png" alt="Chinese Github 图标">
@@ -108,5 +133,6 @@
   Chinese Github &copy; 2026 &middot; <a href="https://github.com/zhaotang5/Chinese-Github">GitHub 仓库</a>
 </footer>
 
+</div>
 </body>
 </html>
